@@ -1,0 +1,185 @@
+Begin Object Class=/Script/Engine.Material Name="m_flare_01"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_60"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_59"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_58"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_15"
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_5"
+      MaterialExpressionEditorX=-2303
+      MaterialExpressionEditorY=33
+      MaterialExpressionGuid=163CB206498D4D1A33ACDFBF1CFC7C7F
+      Material=Material'"m_flare_01"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_2"
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=-151
+      MaterialExpressionGuid=45B780D94E0CBAD91E3949A5561B40AE
+      Material=Material'"m_flare_01"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_5"
+      A=(Expression=MaterialExpressionComponentMask'"m_flare_01:MaterialExpressionComponentMask_5"')
+      B=(OutputIndex=-1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-1871
+      MaterialExpressionEditorY=36
+      MaterialExpressionGuid=250ACC46413FA5C392FC6597654413E5
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_4"
+      A=(Expression=MaterialExpressionComponentMask'"m_flare_01:MaterialExpressionComponentMask_4"')
+      B=(OutputIndex=-1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-1872
+      MaterialExpressionEditorY=-146
+      MaterialExpressionGuid=899C313A4B77CE642B309AA1A238E642
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPower_2"
+      Base=(Expression=MaterialExpressionOneMinus'"m_flare_01:MaterialExpressionOneMinus_2"')
+      ConstExponent=30.000000
+      MaterialExpressionEditorX=-1096
+      MaterialExpressionEditorY=-72
+      MaterialExpressionGuid=5F6F66B34B931A801B3A91A2634D3A72
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_1"
+      MaterialExpressionEditorX=-1175
+      MaterialExpressionEditorY=-355
+      MaterialExpressionGuid=F84CA22C4F3F6DEDBE3EEF9FF495D7FC
+      Material=Material'"m_flare_01"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_2"
+      Input=(Expression=MaterialExpressionAdd'"m_flare_01:MaterialExpressionAdd_1"')
+      MaterialExpressionEditorX=-1277
+      MaterialExpressionEditorY=-70
+      MaterialExpressionGuid=60B0F4CE47651AD0182F57A1F1B7B233
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_60"
+      A=(Expression=MaterialExpressionClamp'"m_flare_01:MaterialExpressionClamp_2"')
+      B=(Expression=MaterialExpressionParticleColor'"m_flare_01:MaterialExpressionParticleColor_1"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-633
+      MaterialExpressionEditorY=127
+      MaterialExpressionGuid=3B0F2CF24D6C24836C4B3C85240D3B75
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_59"
+      A=(Expression=MaterialExpressionSubtract'"m_flare_01:MaterialExpressionSubtract_5"')
+      B=(Expression=MaterialExpressionSubtract'"m_flare_01:MaterialExpressionSubtract_5"')
+      MaterialExpressionEditorX=-1668
+      MaterialExpressionEditorY=30
+      MaterialExpressionGuid=19A7F2D34A97A1A52CB3F88925A6B5F5
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_58"
+      A=(Expression=MaterialExpressionSubtract'"m_flare_01:MaterialExpressionSubtract_4"')
+      B=(Expression=MaterialExpressionSubtract'"m_flare_01:MaterialExpressionSubtract_4"')
+      MaterialExpressionEditorX=-1668
+      MaterialExpressionEditorY=-145
+      MaterialExpressionGuid=2FFDDADD43053B54D54EFBBF36ECEE54
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_1"
+      InOpacity=(Expression=MaterialExpressionMultiply'"m_flare_01:MaterialExpressionMultiply_60"')
+      MaterialExpressionEditorX=-458
+      MaterialExpressionEditorY=355
+      MaterialExpressionGuid=712397E5467AA81987DEEF9960076C34
+      Material=Material'"m_flare_01"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_5"
+      Input=(Expression=MaterialExpressionTextureCoordinate'"m_flare_01:MaterialExpressionTextureCoordinate_5"')
+      G=True
+      MaterialExpressionEditorX=-2095
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=F0312BB84595433DB5BC948F763EFC5E
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_4"
+      Input=(Expression=MaterialExpressionTextureCoordinate'"m_flare_01:MaterialExpressionTextureCoordinate_2"')
+      R=True
+      MaterialExpressionEditorX=-2091
+      MaterialExpressionEditorY=-148
+      MaterialExpressionGuid=8F978A48466C91870AAF519DA5399B75
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionPower'"m_flare_01:MaterialExpressionPower_2"')
+      MaterialExpressionEditorX=-830
+      MaterialExpressionEditorY=-78
+      MaterialExpressionGuid=4052F1FB4B7666645CEB3A99C5632818
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionMultiply'"m_flare_01:MaterialExpressionMultiply_58"')
+      B=(Expression=MaterialExpressionMultiply'"m_flare_01:MaterialExpressionMultiply_59"')
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=-66
+      MaterialExpressionGuid=FA332EA742F8ADDB892A0DA18E4B1C72
+      Material=Material'"m_flare_01"'
+      bCollapsed=False
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_60"')
+   BlendMode=BLEND_Additive
+   ShadingModel=MSM_Unlit
+   bEnableResponsiveAA=True
+   bUsedWithParticleSprites=True
+   bUsedWithBeamTrails=True
+   Expressions(0)=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_1"'
+   Expressions(1)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_2"'
+   Expressions(2)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_4"'
+   Expressions(3)=MaterialExpressionMultiply'"MaterialExpressionMultiply_58"'
+   Expressions(4)=MaterialExpressionSubtract'"MaterialExpressionSubtract_4"'
+   Expressions(5)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(6)=MaterialExpressionPower'"MaterialExpressionPower_2"'
+   Expressions(7)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_2"'
+   Expressions(8)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   Expressions(9)=MaterialExpressionMultiply'"MaterialExpressionMultiply_59"'
+   Expressions(10)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_5"'
+   Expressions(11)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_5"'
+   Expressions(12)=MaterialExpressionSubtract'"MaterialExpressionSubtract_5"'
+   Expressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_60"'
+   Expressions(14)=MaterialExpressionDepthFade'"MaterialExpressionDepthFade_1"'
+   StateId=9DB0F8CB4866B286CED4C485BDDB7808
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_15"'
+   LightingGuid=95E1553F49618E6EC9AB3D80F46A2FC3
+End Object
