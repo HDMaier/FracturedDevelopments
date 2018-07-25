@@ -1,4 +1,4 @@
-﻿Log file open, 07/22/18 00:02:48
+﻿Log file open, 07/23/18 00:17:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TheGauntlet
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.285879
+LogStats: Stats thread started at 0.275962
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.047s to configure plugins.
+LogStreaming: Display: Took  0.043s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  /Game/Levels/MainLobby -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
+LogInit: Command Line:  /Game/Levels/MainLobby -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,48 +147,24 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.22-04.02.49:157][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.22-04.02.49:157][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.22-04.02.49:161][  0]LogHAL: Display: Platform has ~ 16 GB [17120108544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.07.22-04.02.49:161][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.07.22-04.02.49:161][  0]LogInit: Going up to parent DeviceProfile []
-[2018.07.22-04.02.49:161][  0]LogInit: Computer: DESKTOP-V72DBF1
-[2018.07.22-04.02.49:162][  0]LogInit: User: Hunter
-[2018.07.22-04.02.49:162][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.22-04.02.49:162][  0]LogInit: High frequency timer resolution =3.515622 MHz
-[2018.07.22-04.02.49:162][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.22-04.02.49:162][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.22-04.02.49:162][  0]LogMemory: Process Physical Memory: 100.47 MB used, 100.47 MB peak
-[2018.07.22-04.02.49:162][  0]LogMemory: Process Virtual Memory: 85.03 MB used, 85.03 MB peak
-[2018.07.22-04.02.49:162][  0]LogMemory: Physical Memory: 10202.40 MB used,  6124.61 MB free, 16327.01 MB total
-[2018.07.22-04.02.49:162][  0]LogMemory: Virtual Memory: 4633.01 MB used,  6124.61 MB free, 134217728.00 MB total
-[2018.07.22-04.02.49:179][  0]LogInit: Using OS detected language (en-US).
-[2018.07.22-04.02.49:179][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.22-04.02.49:179][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.22-04.02.49:527][  0]LogStreaming: Display: Took  0.349s to InitEngineTextLocalization.
-[2018.07.22-04.02.49:567][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.22-04.02.49:567][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.22-04.02.49:592][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.22-04.02.49:592][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.22-04.02.49:641][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2018.07.22-04.02.49:642][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.07.22-04.02.49:644][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.22-04.02.49:644][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.22-04.02.49:644][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.22-04.02.49:650][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.22-04.02.49:650][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.22-04.02.49:650][  0]LogWindows: EnumDisplayDevices:
-[2018.07.22-04.02.49:650][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2018.07.22-04.02.49:651][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2018.07.22-04.02.49:651][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2018.07.22-04.02.49:651][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2018.07.22-04.02.49:651][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.07.22-04.02.49:651][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2018.07.22-04.02.49:651][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
-[2018.07.22-04.02.49:651][  0]LogD3D11RHI:      Driver Date: 6-24-2018
-[2018.07.22-04.02.49:651][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
-[2018.07.22-04.02.49:688][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.22-04.02.49:718][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.23-04.17.08:503][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.23-04.17.08:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.23-04.17.08:507][  0]LogHAL: Display: Platform has ~ 16 GB [17120108544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.07.23-04.17.08:507][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.07.23-04.17.08:507][  0]LogInit: Going up to parent DeviceProfile []
+[2018.07.23-04.17.08:507][  0]LogInit: Computer: DESKTOP-V72DBF1
+[2018.07.23-04.17.08:507][  0]LogInit: User: Hunter
+[2018.07.23-04.17.08:507][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.23-04.17.08:507][  0]LogInit: High frequency timer resolution =3.515622 MHz
+[2018.07.23-04.17.08:508][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.23-04.17.08:508][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.23-04.17.08:508][  0]LogMemory: Process Physical Memory: 100.85 MB used, 100.85 MB peak
+[2018.07.23-04.17.08:508][  0]LogMemory: Process Virtual Memory: 89.24 MB used, 89.24 MB peak
+[2018.07.23-04.17.08:508][  0]LogMemory: Physical Memory: 9523.08 MB used,  6803.93 MB free, 16327.01 MB total
+[2018.07.23-04.17.08:508][  0]LogMemory: Virtual Memory: 4637.38 MB used,  6803.93 MB free, 134217728.00 MB total
+[2018.07.23-04.17.08:524][  0]LogInit: Using OS detected language (en-US).
+[2018.07.23-04.17.08:524][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.23-04.17.08:524][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
