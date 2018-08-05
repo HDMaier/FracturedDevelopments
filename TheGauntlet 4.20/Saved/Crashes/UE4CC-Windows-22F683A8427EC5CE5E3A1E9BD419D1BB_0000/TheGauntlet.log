@@ -1,0 +1,1283 @@
+﻿Log file open, 07/28/18 13:12:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TheGauntlet
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.271698
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.246s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4212847
+LogInit: Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.023s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.28-17.12.54:454][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.28-17.12.54:454][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.28-17.12.54:498][  0]LogHAL: Display: Platform has ~ 16 GB [17120108544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.07.28-17.12.54:498][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.07.28-17.12.54:498][  0]LogInit: Going up to parent DeviceProfile []
+[2018.07.28-17.12.54:498][  0]LogInit: Computer: DESKTOP-V72DBF1
+[2018.07.28-17.12.54:498][  0]LogInit: User: Hunter
+[2018.07.28-17.12.54:498][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.28-17.12.54:498][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.07.28-17.12.54:499][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.28-17.12.54:499][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.28-17.12.54:499][  0]LogMemory: Process Physical Memory: 100.37 MB used, 100.37 MB peak
+[2018.07.28-17.12.54:499][  0]LogMemory: Process Virtual Memory: 91.18 MB used, 91.18 MB peak
+[2018.07.28-17.12.54:499][  0]LogMemory: Physical Memory: 5223.40 MB used,  11103.61 MB free, 16327.01 MB total
+[2018.07.28-17.12.54:499][  0]LogMemory: Virtual Memory: 4638.95 MB used,  11103.61 MB free, 134217728.00 MB total
+[2018.07.28-17.12.54:524][  0]LogInit: Using OS detected language (en-US).
+[2018.07.28-17.12.54:524][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.28-17.12.54:526][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.28-17.12.54:830][  0]LogStreaming: Display: Took  0.306s to InitEngineTextLocalization.
+[2018.07.28-17.12.54:830][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.28-17.12.54:883][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.28-17.12.54:883][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.28-17.12.55:059][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.28-17.12.55:059][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.28-17.12.55:106][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2018.07.28-17.12.55:106][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.07.28-17.12.55:108][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.28-17.12.55:108][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.28-17.12.55:108][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.28-17.12.55:112][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.28-17.12.55:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.28-17.12.55:112][  0]LogWindows: EnumDisplayDevices:
+[2018.07.28-17.12.55:112][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2018.07.28-17.12.55:112][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2018.07.28-17.12.55:112][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2018.07.28-17.12.55:113][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.07.28-17.12.55:113][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.28-17.12.55:113][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2018.07.28-17.12.55:113][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.07.28-17.12.55:113][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.07.28-17.12.55:113][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2018.07.28-17.12.55:143][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.28-17.12.55:168][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.28-17.12.55:313][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Intermediate/Shaders/WorkingDirectory/7496/).
+[2018.07.28-17.12.55:314][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hunter/AppData/Local/Temp/UnrealShaderWorkingDir/382FFAD843F8F5FB0C54C68EE436DAA3/'.
+[2018.07.28-17.12.55:573][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.28-17.12.55:585][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.28-17.12.55:595][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.28-17.12.55:606][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.28-17.12.55:617][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.28-17.12.55:628][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.28-17.12.55:638][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.28-17.12.55:649][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.28-17.12.55:654][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.28-17.12.55:720][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:720][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:720][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:720][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.28-17.12.55:721][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.28-17.12.55:776][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.28-17.12.55:776][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.28-17.12.55:795][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.28-17.12.55:795][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.28-17.12.55:804][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.28-17.12.55:814][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.28-17.12.55:824][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.28-17.12.55:834][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.28-17.12.55:842][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.07.28-17.12.55:842][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.28-17.12.55:886][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.28-17.12.55:886][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.28-17.12.55:886][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.28-17.12.56:480][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.28-17.12.56:522][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.28-17.12.56:533][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.28-17.12.56:545][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hunter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.28-17.12.56:545][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.28-17.12.56:545][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.28-17.12.56:560][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.28-17.12.56:561][  0]LogSlate: Using FreeType 2.6.0
+[2018.07.28-17.12.56:562][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.28-17.12.56:624][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.07.28-17.12.56:870][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.28-17.12.56:975][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.28-17.12.56:978][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.28-17.12.56:978][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.07.28-17.12.56:978][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.28-17.12.56:978][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.28-17.12.57:010][  0]LogNetVersion: TheGauntlet 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 680350633)
+[2018.07.28-17.12.57:494][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.119914 seconds
+[2018.07.28-17.12.57:499][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.07.28-17.12.57:499][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.07.28-17.12.57:499][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.28-17.12.58:225][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.28-17.12.58:237][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.28-17.12.58:367][  0]SourceControl: Source control is disabled
+[2018.07.28-17.12.58:367][  0]SourceControl: Source control is disabled
+[2018.07.28-17.12.58:368][  0]SourceControl: Source control is disabled
+[2018.07.28-17.12.58:368][  0]SourceControl: Source control is disabled
+[2018.07.28-17.12.58:516][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.28-17.12.58:578][  0]LogOcInput: OculusInput pre-init called
+[2018.07.28-17.12.58:629][  0]LogEngine: Initializing Engine...
+[2018.07.28-17.12.58:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.28-17.12.58:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.07.28-17.12.58:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.28-17.12.58:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.07.28-17.12.58:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.28-17.12.58:810][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.07.28-17.12.58:821][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.28-17.12.58:869][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-17.12.58:975][  0]LogInit: FAudioDevice initialized.
+[2018.07.28-17.12.58:976][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.07.28-17.12.59:043][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.07.28-17.12.59:055][  0]LogInit: Texture streaming: Enabled
+[2018.07.28-17.12.59:071][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.28-17.12.59:081][  0]LogInit: Transaction tracking system initialized
+[2018.07.28-17.12.59:099][  0]BlueprintLog: New page: Editor Load
+[2018.07.28-17.12.59:163][  0]LocalizationService: Localization service is disabled
+[2018.07.28-17.12.59:564][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.28-17.12.59:564][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.28-17.12.59:564][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.28-17.12.59:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.07.28-17.12.59:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.28-17.12.59:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.07.28-17.12.59:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.28-17.12.59:615][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/' took 0.02s
+[2018.07.28-17.12.59:658][  0]SourceControl: Source control is disabled
+[2018.07.28-17.12.59:658][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Levels/MainLobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.28-17.12.59:687][  0]LightingResults: New page: Lighting Build
+[2018.07.28-17.12.59:689][  0]MapCheck: New page: Map Check
+[2018.07.28-17.12.59:689][  0]LightingResults: New page: Lighting Build
+[2018.07.28-17.13.02:778][  0]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-17.13.02:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.28-17.13.02:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.28-17.13.02:858][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.539ms to complete.
+[2018.07.28-17.13.02:858][  0]LogFileHelpers: Loading map 'MainLobby' took 3.200
+[2018.07.28-17.13.03:080][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-17.13.03:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-17.13.03:093][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-17.13.03:100][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-17.13.03:110][  0]LogCollectionManager: Loaded 0 collections in 0.001274 seconds
+[2018.07.28-17.13.03:171][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Collections/' took 0.01s
+[2018.07.28-17.13.03:171][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Developers/Hunter/Collections/' took 0.01s
+[2018.07.28-17.13.03:171][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Collections/' took 0.01s
+[2018.07.28-17.13.03:171][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.28-17.13.03:179][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2572 classes and 603 folders.
+[2018.07.28-17.13.03:184][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.28-17.13.03:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.28-17.13.03:557][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.07.28-17.13.03:599][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.28-17.13.03:601][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.28-17.13.03:612][  0]LogSlate: Took 0.005868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.28-17.13.03:725][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.07.28-17.13.03:875][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.28-17.13.03:875][  0]LogLoad: (Engine Initialization) Total time: 11.72 seconds
+[2018.07.28-17.13.03:875][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.28-17.13.03:885][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.28-17.13.03:904][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.07.28-17.13.03:937][  0]LogSlate: Took 0.005068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.28-17.13.04:008][  1]LogAssetRegistry: Asset discovery search completed in 7.4069 seconds
+[2018.07.28-17.13.04:009][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.28-17.13.04:009][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.07.28-17.13.04:752][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-17.13.04:859][ 96]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-17.13.04:893][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-17.13.04:893][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-17.13.04:907][ 96]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 9:13:04 AM)
+[2018.07.28-17.13.04:907][ 96]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-17.13.04:908][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001542s)
+[2018.07.28-17.13.04:909][ 96]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-17.13.04:909][ 96]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2018.07.28-17.13.04:909][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002191s)
+[2018.07.28-17.13.04:936][ 96]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-17.13.05:032][ 96]LogInit: FAudioDevice initialized.
+[2018.07.28-17.13.05:059][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-17.13.05:171][ 96]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-17.13.05:172][ 96]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-13.13.05
+[2018.07.28-17.13.05:172][ 96]LogWorld: Bringing up level for play took: 0.000523
+[2018.07.28-17.13.05:188][ 96]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.07.28-17.13.05:241][ 96]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-17.13.05:241][ 96]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-17.13.05:243][ 96]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.756
+[2018.07.28-17.13.05:243][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-17.13.05:271][ 96]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.07.28-17.13.09:361][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-17.13.31:420][119]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-17.13.31:430][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-17.13.31:461][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-17.13.31:462][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-17.13.31:729][120]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.07.28-17.23.02:181][100]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-18.15.59:020][595]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{55f64e50-b84a-4693-a9d5-84fe9d87224e} was removed. Shutting down audio device.
+[2018.07.28-18.15.59:020][595]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-18.16.02:578][601]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.00.50:136][658]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.28-19.00.50:142][658]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Options.Options
+[2018.07.28-19.00.50:696][658]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.07.28-19.00.51:501][658]LogSlate: Took 0.006648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.28-19.00.58:762][118]LogSlate: Took 0.012533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.07.28-19.01.05:202][314]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.01.05:233][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.01.05:233][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-19.01.05:233][314]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:01:05 AM)
+[2018.07.28-19.01.05:233][314]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.01.05:235][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001487s)
+[2018.07.28-19.01.05:235][314]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.01.05:236][314]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.07.28-19.01.05:236][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002189s)
+[2018.07.28-19.01.05:269][314]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.01.05:275][314]LogInit: FAudioDevice initialized.
+[2018.07.28-19.01.05:301][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.01.05:382][314]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.01.05:384][314]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.01.05
+[2018.07.28-19.01.05:384][314]LogWorld: Bringing up level for play took: 0.000673
+[2018.07.28-19.01.05:400][314]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.01.05:400][314]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.01.05:403][314]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.916
+[2018.07.28-19.01.05:404][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.01.06:248][337]LogScript: Warning: Accessed None trying to read property Options Ref
+	NewWidgetBlueprint_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.NewWidgetBlueprint_C_0
+	Function /Game/UI/NewUITest/NewWidgetBlueprint.NewWidgetBlueprint_C:ExecuteUbergraph_NewWidgetBlueprint:0332
+[2018.07.28-19.01.06:248][337]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Options Ref". Blueprint:  NewWidgetBlueprint Function:  Execute Ubergraph New Widget Blueprint Graph:  Customize Button Pressed Node:  Remove from Parent
+[2018.07.28-19.01.09:747][412]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.01.09:756][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.01.09:783][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.01.09:783][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.01.09:902][413]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.07.28-19.01.41:697][403]BlueprintLog: New page: Compile Options
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:106][156]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.02.05:106][156]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.02.05:760][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:760][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.05:761][174]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.02.05:761][174]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.02.06:265][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:266][188]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.02.06:266][188]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_8.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.02.06:812][203]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.02.06:812][203]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.02.36:890][526]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/NewUITest/NewWidgetBlueprint.NewWidgetBlueprint
+[2018.07.28-19.02.47:052][862]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.28-19.02.52:702][977]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.28-19.03.04:793][347]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.28-19.03.14:472][659]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.28-19.03.23:344][937]LogEditorTransaction: Undo Move Widget
+[2018.07.28-19.03.23:626][944]LogEditorTransaction: Undo Remove Widget
+[2018.07.28-19.03.23:898][951]LogEditorTransaction: Undo Remove Widget
+[2018.07.28-19.03.24:786][978]LogEditorTransaction: Undo Remove Widget
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_8.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_9.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_10.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_0.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_1.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_11.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_12.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_13.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_14.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_15.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_16.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_17.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_18.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_19.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_20.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_21.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.33:765][265]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.03.33:765][265]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_8.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_9.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_10.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_0.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_1.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_11.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_12.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_13.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_14.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_15.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_16.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_17.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_18.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_19.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_20.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_21.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_22.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.34:638][290]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.03.34:638][290]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_8.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_9.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_10.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_0.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_1.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_11.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_12.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_13.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_14.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_15.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_16.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_17.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_18.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_19.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_20.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_21.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_22.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_23.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:211][307]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.03.35:211][307]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.SKEL_Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Level_Selector.Level_Selector_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_5.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_3.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_2.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Game/UI/Options.Options_C:WidgetTree.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_4.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_6.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_7.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_8.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_9.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_10.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:676][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_0.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:NewWidgetBlueprint_C_1.WidgetTree_0.Level_Selector.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_11.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_12.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_13.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_14.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_15.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_16.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_17.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_18.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_19.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_20.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_21.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_22.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_23.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_1:Options_C_24.WidgetTree_0.HorizontalBox_0
+[2018.07.28-19.03.35:677][320]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/Level_Selector.Level_Selector:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_46).  Import failed...
+[2018.07.28-19.03.35:677][320]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2018.07.28-19.04.16:793][670]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.04.16:839][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.16:839][670]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-19.04.16:845][670]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2018.07.28-19.04.17:083][670]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-19.04.17:324][670]LogPlayLevel: PlayLevel: Blueprint regeneration took 485 ms (2 blueprints)
+[2018.07.28-19.04.17:324][670]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:04:17 AM)
+[2018.07.28-19.04.17:324][670]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.04.17:326][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001770s)
+[2018.07.28-19.04.17:327][670]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.04.17:327][670]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.07.28-19.04.17:327][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002544s)
+[2018.07.28-19.04.17:360][670]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.04.17:366][670]LogInit: FAudioDevice initialized.
+[2018.07.28-19.04.17:391][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.04.17:462][670]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.04.17:464][670]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.04.17
+[2018.07.28-19.04.17:464][670]LogWorld: Bringing up level for play took: 0.000590
+[2018.07.28-19.04.17:480][670]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.04.17:480][670]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.04.17:483][670]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.996
+[2018.07.28-19.04.17:484][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.18:252][690]LogNet: Browse: /Game/Levels/ThirdPersonExampleMap
+[2018.07.28-19.04.18:252][690]LogLoad: LoadMap: /Game/Levels/ThirdPersonExampleMap
+[2018.07.28-19.04.18:468][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:486][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:486][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor.uasset.
+[2018.07.28-19.04.18:486][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:487][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:487][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:487][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST.uasset.
+[2018.07.28-19.04.18:487][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/sandstone_grey.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/sandstone_grey.uasset.
+[2018.07.28-19.04.18:488][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/sandstone_grey : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/sandstone_grey.uasset.
+[2018.07.28-19.04.18:488][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/sandstone_grey.uasset.
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Unable to load Grey_Sandstone__INST with outer Package /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST because its class does not exist
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/sandstone_grey.uasset.
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST.uasset.
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST.uasset.
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Unable to load sandstone_grey with outer Package /Game/Materials/Substances/Grey_Sandstone/sandstone_grey because its class does not exist
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST.uasset.
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:489][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor.uasset.
+[2018.07.28-19.04.18:490][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:490][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:490][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:490][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:490][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:490][690]LogLinker: Warning: Unable to load Grey_Sandstone__INST_basecolor with outer Package /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor because its class does not exist
+[2018.07.28-19.04.18:495][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:514][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:514][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic.uasset.
+[2018.07.28-19.04.18:514][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:514][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic.uasset.
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:515][690]LogLinker: Warning: Unable to load Grey_Sandstone__INST_metallic with outer Package /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic because its class does not exist
+[2018.07.28-19.04.18:520][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:540][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:540][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal.uasset.
+[2018.07.28-19.04.18:540][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:540][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:540][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal.uasset.
+[2018.07.28-19.04.18:541][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:541][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:541][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:541][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:541][690]LogLinker: Warning: Unable to load Grey_Sandstone__INST_normal with outer Package /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal because its class does not exist
+[2018.07.28-19.04.18:545][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness.uasset.
+[2018.07.28-19.04.18:554][690]LoadErrors: Error: /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness.uasset.
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:554][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:555][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:555][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Grey_Sandstone/Grey_Sandstone__MAT.uasset.
+[2018.07.28-19.04.18:555][690]LogLinker: Warning: Unable to load Grey_Sandstone__INST_roughness with outer Package /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness because its class does not exist
+[2018.07.28-19.04.18:596][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:616][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:616][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion.uasset.
+[2018.07.28-19.04.18:616][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:616][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:616][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:616][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST.uasset.
+[2018.07.28-19.04.18:616][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:636][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/rock_surface_rough.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/rock_surface_rough.uasset.
+[2018.07.28-19.04.18:658][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/rock_surface_rough : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/rock_surface_rough.uasset.
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/rock_surface_rough.uasset.
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST because its class does not exist
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:658][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/rock_surface_rough.uasset.
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST.uasset.
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST.uasset.
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Unable to load rock_surface_rough with outer Package /Game/Materials/Substances/Rock_Surface_Rough/rock_surface_rough because its class does not exist
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST.uasset.
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:659][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion.uasset.
+[2018.07.28-19.04.18:660][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:660][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:660][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:660][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:660][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:660][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST_ambient_occlusion with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion because its class does not exist
+[2018.07.28-19.04.18:680][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:697][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:697][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor.uasset.
+[2018.07.28-19.04.18:697][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor.uasset.
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:698][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST_basecolor with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor because its class does not exist
+[2018.07.28-19.04.18:704][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:714][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:714][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic.uasset.
+[2018.07.28-19.04.18:714][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:715][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:716][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic.uasset.
+[2018.07.28-19.04.18:717][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:717][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:717][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:717][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:718][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST_metallic with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic because its class does not exist
+[2018.07.28-19.04.18:731][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:741][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:741][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal.uasset.
+[2018.07.28-19.04.18:741][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:742][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:743][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal.uasset.
+[2018.07.28-19.04.18:744][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:744][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:744][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:745][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:745][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST_normal with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal because its class does not exist
+[2018.07.28-19.04.18:758][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:768][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:768][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness.uasset.
+[2018.07.28-19.04.18:768][690]LoadErrors: Error: /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:769][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:770][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness.uasset.
+[2018.07.28-19.04.18:771][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:771][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:771][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:772][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_MAT.uasset.
+[2018.07.28-19.04.18:772][690]LogLinker: Warning: Unable to load Rock_Surface_Rough_INST_roughness with outer Package /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness because its class does not exist
+[2018.07.28-19.04.18:828][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:847][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:847][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion.uasset.
+[2018.07.28-19.04.18:848][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:849][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:850][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:850][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST.uasset.
+[2018.07.28-19.04.18:851][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:862][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/stony_sand_soil.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:924][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:924][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/stony_sand_soil.uasset.
+[2018.07.28-19.04.18:924][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/stony_sand_soil : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:925][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:926][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/stony_sand_soil.uasset.
+[2018.07.28-19.04.18:926][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:926][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/stony_sand_soil.uasset.
+[2018.07.28-19.04.18:926][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST because its class does not exist
+[2018.07.28-19.04.18:927][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:927][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/stony_sand_soil.uasset.
+[2018.07.28-19.04.18:928][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:928][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST.uasset.
+[2018.07.28-19.04.18:929][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:929][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST.uasset.
+[2018.07.28-19.04.18:929][690]LogLinker: Warning: Unable to load stony_sand_soil with outer Package /Game/Materials/Substances/Stony_Sand_Soil/stony_sand_soil because its class does not exist
+[2018.07.28-19.04.18:930][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:930][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST.uasset.
+[2018.07.28-19.04.18:931][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:931][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion.uasset.
+[2018.07.28-19.04.18:932][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:933][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.18:933][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:933][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:933][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.18:934][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST_ambientocclusion with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion because its class does not exist
+[2018.07.28-19.04.18:961][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.18:984][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:984][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor.uasset.
+[2018.07.28-19.04.18:984][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.18:985][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:985][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor.uasset.
+[2018.07.28-19.04.18:987][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:987][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.18:987][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.18:987][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.18:988][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST_basecolor with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor because its class does not exist
+[2018.07.28-19.04.19:005][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.19:017][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:018][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic.uasset.
+[2018.07.28-19.04.19:018][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.19:019][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:019][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic.uasset.
+[2018.07.28-19.04.19:021][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:021][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:021][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:021][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:022][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST_metallic with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic because its class does not exist
+[2018.07.28-19.04.19:035][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.19:044][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:044][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal.uasset.
+[2018.07.28-19.04.19:044][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.19:045][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:045][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal.uasset.
+[2018.07.28-19.04.19:047][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:047][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:047][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:047][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:048][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST_normal with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal because its class does not exist
+[2018.07.28-19.04.19:062][690]LogLinker: Warning: Package D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness.uasset was saved with a custom integration that is not present. Tag C52D92BED4A6A49C11E593249A6C11E5  Version 2
+[2018.07.28-19.04.19:071][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:072][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness.uasset.
+[2018.07.28-19.04.19:072][690]LoadErrors: Error: /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness : Can't find file for asset. /Script/SubstanceCore
+[2018.07.28-19.04.19:073][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:073][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness.uasset.
+[2018.07.28-19.04.19:075][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:075][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:075][690]LogLinker: Warning: Can't find file '/Script/SubstanceCore'
+[2018.07.28-19.04.19:075][690]LogLinker: Warning: Can't find file for asset '/Script/SubstanceCore' while loading D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_MAT.uasset.
+[2018.07.28-19.04.19:076][690]LogLinker: Warning: Unable to load Stony_Sand_Soil_INST_roughness with outer Package /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness because its class does not exist
+[2018.07.28-19.04.20:203][690]LogMaterial: Display: Missing cached shader map for material Rock_Surface_Rough_MAT, compiling. 
+[2018.07.28-19.04.20:205][690]LogMaterial: Warning: D:\Unreal Projects\Git\FracturedDevelopments\TheGauntlet 4.20\Content\Materials\Substances\Rock_Surface_Rough\Rock_Surface_Rough_MAT.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.07.28-19.04.20:205][690]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.07.28-19.04.20:212][690]LogMaterial: Display: Missing cached shader map for material Grey_Sandstone__MAT, compiling. 
+[2018.07.28-19.04.20:213][690]LogMaterial: Warning: D:\Unreal Projects\Git\FracturedDevelopments\TheGauntlet 4.20\Content\Materials\Substances\Grey_Sandstone\Grey_Sandstone__MAT.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.07.28-19.04.20:213][690]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.07.28-19.04.20:246][690]LogMaterial: Display: Missing cached shader map for material Stony_Sand_Soil_MAT, compiling. 
+[2018.07.28-19.04.20:247][690]LogMaterial: Warning: D:\Unreal Projects\Git\FracturedDevelopments\TheGauntlet 4.20\Content\Materials\Substances\Stony_Sand_Soil\Stony_Sand_Soil_MAT.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.07.28-19.04.20:247][690]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.07.28-19.04.20:882][690]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.28-19.04.20:991][690]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.28-19.04.20:998][690]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.28-15.04.20
+[2018.07.28-19.04.21:001][690]LogWorld: Bringing up level for play took: 0.009249
+[2018.07.28-19.04.21:005][690]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.28-19.04.21:008][690]LogLoad: Took 2.755788 seconds to LoadMap(/Game/Levels/ThirdPersonExampleMap)
+[2018.07.28-19.04.21:058][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_basecolor.Grey_Sandstone__INST_basecolor
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_metallic.Grey_Sandstone__INST_metallic
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_normal.Grey_Sandstone__INST_normal
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Grey_Sandstone/Grey_Sandstone__INST_roughness.Grey_Sandstone__INST_roughness
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_ambient_occlusion.Rock_Surface_Rough_INST_ambient_occlusion
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_basecolor.Rock_Surface_Rough_INST_basecolor
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_metallic.Rock_Surface_Rough_INST_metallic
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_normal.Rock_Surface_Rough_INST_normal
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Rock_Surface_Rough/Rock_Surface_Rough_INST_roughness.Rock_Surface_Rough_INST_roughness
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_ambientocclusion.Stony_Sand_Soil_INST_ambientocclusion
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_basecolor.Stony_Sand_Soil_INST_basecolor
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_metallic.Stony_Sand_Soil_INST_metallic
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_normal.Stony_Sand_Soil_INST_normal
+[2018.07.28-19.04.21:059][691]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AssetImportData': SubstanceTexture2D /Game/Materials/Substances/Stony_Sand_Soil/Stony_Sand_Soil_INST_roughness.Stony_Sand_Soil_INST_roughness
+[2018.07.28-19.04.21:162][693]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.04.21:165][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.21:198][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.04.21:198][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.21:287][694]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.07.28-19.04.24:103][781]LogSlate: Window 'Widget Reflector' being destroyed
+[2018.07.28-19.04.24:107][781]LogSlate: Window 'Widget Reflector' being destroyed
+[2018.07.28-19.04.25:242][817]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.04.25:263][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.25:263][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-19.04.25:263][817]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:04:25 AM)
+[2018.07.28-19.04.25:263][817]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.04.25:265][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001502s)
+[2018.07.28-19.04.25:265][817]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.04.25:265][817]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.07.28-19.04.25:265][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002103s)
+[2018.07.28-19.04.25:299][817]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.04.25:304][817]LogInit: FAudioDevice initialized.
+[2018.07.28-19.04.25:329][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.04.25:400][817]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.04.25:402][817]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.04.25
+[2018.07.28-19.04.25:402][817]LogWorld: Bringing up level for play took: 0.000578
+[2018.07.28-19.04.25:418][817]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.04.25:418][817]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.04.25:423][817]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.936
+[2018.07.28-19.04.25:423][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.29:098][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-19.04.29:189][ 68]LogScript: Warning: Accessed None trying to read property Options Ref
+	NewWidgetBlueprint_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.NewWidgetBlueprint_C_0
+	Function /Game/UI/NewUITest/NewWidgetBlueprint.NewWidgetBlueprint_C:ExecuteUbergraph_NewWidgetBlueprint:0332
+[2018.07.28-19.04.29:189][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Options Ref". Blueprint:  NewWidgetBlueprint Function:  Execute Ubergraph New Widget Blueprint Graph:  Customize Button Pressed Node:  Remove from Parent
+[2018.07.28-19.04.31:260][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-19.04.45:712][ 48]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.04.45:722][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.45:753][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.04.45:753][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.04.46:039][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.07.28-19.04.49:807][134]LogSlate: Took 0.003702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.28-19.05.07:667][197]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.05.07:686][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.07:686][197]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-19.05.07:730][197]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-19.05.07:890][197]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2018.07.28-19.05.07:890][197]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:05:07 AM)
+[2018.07.28-19.05.07:890][197]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.05.07:892][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001577s)
+[2018.07.28-19.05.07:892][197]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.05.07:893][197]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2018.07.28-19.05.07:893][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002242s)
+[2018.07.28-19.05.07:929][197]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.05.07:935][197]LogInit: FAudioDevice initialized.
+[2018.07.28-19.05.07:960][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.05.08:037][197]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.05.08:038][197]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.05.08
+[2018.07.28-19.05.08:038][197]LogWorld: Bringing up level for play took: 0.000508
+[2018.07.28-19.05.08:053][197]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.05.08:053][197]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.05.08:056][197]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.431
+[2018.07.28-19.05.08:056][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.14:184][779]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.05.14:189][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.14:221][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.05.14:222][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.14:292][780]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.07.28-19.05.44:231][273]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.05.44:278][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.44:278][273]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-19.05.44:305][273]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-19.05.44:486][273]LogPlayLevel: PlayLevel: Blueprint regeneration took 208 ms (1 blueprints)
+[2018.07.28-19.05.44:486][273]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:05:44 AM)
+[2018.07.28-19.05.44:486][273]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.05.44:488][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001882s)
+[2018.07.28-19.05.44:488][273]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.05.44:489][273]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.07.28-19.05.44:489][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002556s)
+[2018.07.28-19.05.44:524][273]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.05.44:530][273]LogInit: FAudioDevice initialized.
+[2018.07.28-19.05.44:556][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.05.44:630][273]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.05.44:632][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.05.44
+[2018.07.28-19.05.44:632][273]LogWorld: Bringing up level for play took: 0.000476
+[2018.07.28-19.05.44:647][273]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.05.44:647][273]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.05.44:651][273]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.163
+[2018.07.28-19.05.44:651][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.05.58:249][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-19.06.04:964][370]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.06.04:968][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.04:997][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.06.04:998][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.05:066][371]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.07.28-19.06.25:533][782]LogEditorTransaction: Undo Move Node
+[2018.07.28-19.06.27:101][954]LogEditorTransaction: Undo Move Node
+[2018.07.28-19.06.29:995][284]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.06.30:015][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.30:015][284]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-19.06.30:049][284]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-19.06.30:213][284]LogPlayLevel: PlayLevel: Blueprint regeneration took 197 ms (1 blueprints)
+[2018.07.28-19.06.30:213][284]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:06:30 AM)
+[2018.07.28-19.06.30:213][284]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.06.30:215][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001514s)
+[2018.07.28-19.06.30:215][284]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.06.30:216][284]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2018.07.28-19.06.30:216][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002199s)
+[2018.07.28-19.06.30:245][284]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.06.30:251][284]LogInit: FAudioDevice initialized.
+[2018.07.28-19.06.30:277][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.06.30:351][284]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.06.30:353][284]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.06.30
+[2018.07.28-19.06.30:353][284]LogWorld: Bringing up level for play took: 0.000556
+[2018.07.28-19.06.30:368][284]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.06.30:368][284]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.06.30:371][284]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.116
+[2018.07.28-19.06.30:371][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.42:026][471]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.06.42:031][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.42:063][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.06.42:064][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.06.42:126][472]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.07.28-19.07.12:429][ 38]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-19.07.12:466][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.07.12:466][ 38]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-19.07.12:491][ 38]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-19.07.12:657][ 38]LogPlayLevel: PlayLevel: Blueprint regeneration took 191 ms (1 blueprints)
+[2018.07.28-19.07.12:657][ 38]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 11:07:12 AM)
+[2018.07.28-19.07.12:657][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-19.07.12:659][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001467s)
+[2018.07.28-19.07.12:659][ 38]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-19.07.12:659][ 38]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2018.07.28-19.07.12:659][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002063s)
+[2018.07.28-19.07.12:693][ 38]LogInit: XAudio2 using 'LE40S508 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-19.07.12:699][ 38]LogInit: FAudioDevice initialized.
+[2018.07.28-19.07.12:726][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-19.07.12:798][ 38]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-19.07.12:799][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-15.07.12
+[2018.07.28-19.07.12:800][ 38]LogWorld: Bringing up level for play took: 0.000686
+[2018.07.28-19.07.12:814][ 38]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-19.07.12:814][ 38]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-19.07.12:817][ 38]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.33
+[2018.07.28-19.07.12:818][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.07.24:260][169]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-19.07.24:265][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.07.24:293][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-19.07.24:293][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-19.07.24:403][170]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "Back Button" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Back Button
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-19.07.49:805][823]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "CustomizeCameraMove" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Customize Camera Move
+[2018.07.28-19.07.49:810][823]LogBlueprint: Warning: [Compiler MainMenu] [6897.65] Compile of MainMenu failed. 8 Fatal Issue(s) 0 Warning(s) [in 15 ms] (/Game/UI/MainLobby/MainMenu.MainMenu)
+[2018.07.28-19.07.49:887][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options:OptionsMenuBackButtonDispatcher.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:AudioButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:VideoButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:VideoButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:OptionsMenuBackButtonDispatcher' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__GamePlayButton_K2Node_ComponentBoundEvent_10_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__GamePlayButton_K2Node_ComponentBoundEvent_9_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__ControlButton_K2Node_ComponentBoundEvent_8_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__ControlButton_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__AudioButton_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__AudioButton_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__VideoButton_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:AudioButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:AudioButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:ControlButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:ControlButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:ControlButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:GameButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:GamePlayButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:GamePlayText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:VideoButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:VideoButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:VideoButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.Options_C:OptionsMenuBackButtonDispatcher' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:AudioButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:AudioButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:AudioButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:ControlButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:ControlButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:ControlButtonText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:GameButtonImage' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:GamePlayButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:GamePlayText' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:BndEvt__VideoButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:Tick' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:Construct' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:PreConstruct' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:888][823]LogMetaData: Removing '/Game/UI/Options/Options.SKEL_Options_C:VideoButton' ref from Metadata '/Game/UI/Options.PackageMetaData'
+[2018.07.28-19.07.49:930][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options/Options" FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/Options/Options.uasset" SILENT=true
+[2018.07.28-19.07.49:991][823]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Options5EB574D0410AA4619F84A9B9404FDFF3.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/Options/Options.uasset'
+[2018.07.28-19.07.50:275][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainLobby/MainMenu" FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/MainLobby/MainMenu.uasset" SILENT=true
+[2018.07.28-19.07.50:815][823]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/MainMenuF986F5C6493AE4B5F9553DA50CAFC3F3.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/MainLobby/MainMenu.uasset'
+[2018.07.28-19.07.50:825][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/NewUITest/NewWidgetBlueprint" FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/NewUITest/NewWidgetBlueprint.uasset" SILENT=true
+[2018.07.28-19.07.50:949][823]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/NewWidgetBlueprint5E0FE58D48F4FE4E15B225AAB2DB79FD.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/UI/NewUITest/NewWidgetBlueprint.uasset'
+[2018.07.28-19.08.03:130][241]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Options/VideoOptions.VideoOptions
+[2018.07.28-19.08.46:116][284]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLobby' took 0.034
+[2018.07.28-19.08.46:162][284]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Options/VideoOptions] ([1] browsable assets)...
+[2018.07.28-19.08.46:162][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Options/VideoOptions]
+[2018.07.28-19.08.46:230][284]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/VideoOptions_Auto1C5BCDB0E4E561AF84FD9238545CDBD4A.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Autosaves/Game/UI/Options/VideoOptions_Auto1.uasset'
+[2018.07.28-19.08.46:231][284]LogFileHelpers: Auto-saving content packages took 0.113
+[2018.07.28-23.18.56:733][175]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-23.20.49:575][166]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLobby' took 0.031
+[2018.07.28-23.20.49:576][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Options/VideoOptions] ([1] browsable assets)...
+[2018.07.28-23.20.49:576][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Options/VideoOptions]
+[2018.07.28-23.20.49:592][166]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/VideoOptions_Auto2272359364A1C2D73944FD7834CA7B7D0.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Autosaves/Game/UI/Options/VideoOptions_Auto2.uasset'
+[2018.07.28-23.20.49:592][166]LogFileHelpers: Auto-saving content packages took 0.016
+[2018.07.28-23.21.16:127][ 84]LogEditorTransaction: Undo Move Anchor
+[2018.07.28-23.21.35:274][586]BlueprintLog: New page: Compile VideoOptions
+[2018.07.28-23.21.45:006][914]BlueprintLog: New page: Compile VideoOptions
+[2018.07.28-23.25.06:550][843]BlueprintLog: New page: Compile VideoOptions
+[2018.07.28-23.25.55:355][ 53]BlueprintLog: New page: Compile Options
+[2018.07.28-23.25.55:400][ 53]LogBlueprint: Error: [Compiler Options] Spawn node  Create Widget  must have a class specified.
+[2018.07.28-23.25.55:450][ 53]LogBlueprint: Warning: [Compiler Options] [2383.29] Compile of Options failed. 1 Fatal Issue(s) 0 Warning(s) [in 95 ms] (/Game/UI/Options/Options.Options)
+[2018.07.28-23.26.12:441][ 48]BlueprintLog: New page: Compile Options
+[2018.07.28-23.26.13:408][150]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.26.13:470][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.26.13:470][150]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-23.26.13:494][150]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.07.28-23.26.13:692][150]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "Back Button" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Back Button
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:728][150]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.13:729][150]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "CustomizeCameraMove" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Customize Camera Move
+[2018.07.28-23.26.13:734][150]LogBlueprint: Warning: [Compiler MainMenu] [2401.58] Compile of MainMenu failed. 8 Fatal Issue(s) 0 Warning(s) [in 41 ms] (/Game/UI/MainLobby/MainMenu.MainMenu)
+[2018.07.28-23.26.13:768][150]LogPlayLevel: PlayLevel: Blueprint regeneration took 297 ms (2 blueprints)
+[2018.07.28-23.26.13:768][150]BlueprintLog: Blueprint MainMenu failed to compile
+[2018.07.28-23.26.14:805][150]LogSlate: Window 'Message' being destroyed
+[2018.07.28-23.26.15:576][239]BlueprintLog: New page: Compile Options
+[2018.07.28-23.26.17:239][365]BlueprintLog: New page: Compile VideoOptions
+[2018.07.28-23.26.19:856][526]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.26.19:878][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.26.19:879][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-23.26.21:619][526]LogSlate: Window 'Message' being destroyed
+[2018.07.28-23.26.21:623][526]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 3:26:21 PM)
+[2018.07.28-23.26.21:623][526]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-23.26.21:627][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002994s)
+[2018.07.28-23.26.21:628][526]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-23.26.21:628][526]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2018.07.28-23.26.21:628][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.004459s)
+[2018.07.28-23.26.21:671][526]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-23.26.21:776][526]LogInit: FAudioDevice initialized.
+[2018.07.28-23.26.21:802][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-23.26.21:882][526]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-23.26.21:883][526]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-19.26.21
+[2018.07.28-23.26.21:883][526]LogWorld: Bringing up level for play took: 0.000837
+[2018.07.28-23.26.21:899][526]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-23.26.21:899][526]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-23.26.21:903][526]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 1.415
+[2018.07.28-23.26.21:903][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.26.25:838][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.26.25:838][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-23.26.25:857][983]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-23.26.25:886][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-23.26.25:886][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.26.25:949][985]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.07.28-23.26.39:945][652]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/MainLobby/MainMenu.MainMenu
+[2018.07.28-23.26.41:631][697]BlueprintLog: New page: Compile MainMenu
+[2018.07.28-23.26.41:692][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:692][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:692][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:692][697]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "Back Button" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Back Button
+[2018.07.28-23.26.41:693][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:693][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:693][697]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.41:693][697]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "CustomizeCameraMove" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Customize Camera Move
+[2018.07.28-23.26.41:730][697]LogBlueprint: Warning: [Compiler MainMenu] [2429.57] Compile of MainMenu failed. 8 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/UI/MainLobby/MainMenu.MainMenu)
+[2018.07.28-23.26.42:626][728]BlueprintLog: New page: Compile MainMenu
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "Back Button" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Back Button
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.42:685][728]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "CustomizeCameraMove" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Customize Camera Move
+[2018.07.28-23.26.42:726][728]LogBlueprint: Warning: [Compiler MainMenu] [2430.57] Compile of MainMenu failed. 8 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/UI/MainLobby/MainMenu.MainMenu)
+[2018.07.28-23.26.49:920][384]BlueprintLog: New page: Compile MainMenu
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Back Button . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "Back Button" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Back Button
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  <Unnamed>  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] In use pin  Target  no longer exists on node  Customize Camera Move . Please refresh node or break links to remove pin.
+[2018.07.28-23.26.49:979][384]LogBlueprint: Error: [Compiler MainMenu] Could not find a function named "CustomizeCameraMove" in 'ShowRoomCharacter_C'.
+Make sure 'ShowRoomCharacter_C' has been compiled for  Customize Camera Move
+[2018.07.28-23.26.50:021][384]LogBlueprint: Warning: [Compiler MainMenu] [2437.86] Compile of MainMenu failed. 8 Fatal Issue(s) 0 Warning(s) [in 102 ms] (/Game/UI/MainLobby/MainMenu.MainMenu)
+[2018.07.28-23.27.00:917][373]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.28-23.27.01:058][373]LogSlate: Window 'VideoOptions*' being destroyed
+[2018.07.28-23.27.02:313][463]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/MainLobby/MainOptions.MainOptions
+[2018.07.28-23.27.04:314][661]LogSlate: Window 'MainOptions' being destroyed
+[2018.07.28-23.27.04:317][661]LogSlate: Window 'MainOptions' being destroyed
+[2018.07.28-23.27.06:122][762]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.28-23.27.07:760][935]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.27.07:794][935]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.07:794][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-23.27.07:794][935]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 3:27:07 PM)
+[2018.07.28-23.27.07:794][935]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-23.27.07:795][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001597s)
+[2018.07.28-23.27.07:796][935]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-23.27.07:796][935]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.07.28-23.27.07:796][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002291s)
+[2018.07.28-23.27.07:824][935]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-23.27.07:918][935]LogInit: FAudioDevice initialized.
+[2018.07.28-23.27.07:943][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-23.27.08:020][935]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-23.27.08:021][935]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-19.27.08
+[2018.07.28-23.27.08:022][935]LogWorld: Bringing up level for play took: 0.000552
+[2018.07.28-23.27.08:036][935]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-23.27.08:036][935]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-23.27.08:039][935]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.449
+[2018.07.28-23.27.08:039][935]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.11:672][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.28-23.27.13:981][641]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-23.27.13:986][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.14:017][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-23.27.14:017][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.14:075][644]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.07.28-23.27.17:504][ 55]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.27.17:518][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.17:518][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-23.27.17:518][ 55]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 3:27:17 PM)
+[2018.07.28-23.27.17:518][ 55]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-23.27.17:519][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001534s)
+[2018.07.28-23.27.17:520][ 55]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-23.27.17:520][ 55]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.07.28-23.27.17:520][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002317s)
+[2018.07.28-23.27.17:551][ 55]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-23.27.17:648][ 55]LogInit: FAudioDevice initialized.
+[2018.07.28-23.27.17:674][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-23.27.17:753][ 55]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-23.27.17:754][ 55]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-19.27.17
+[2018.07.28-23.27.17:754][ 55]LogWorld: Bringing up level for play took: 0.000455
+[2018.07.28-23.27.17:769][ 55]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-23.27.17:769][ 55]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-23.27.17:771][ 55]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.716
+[2018.07.28-23.27.17:772][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.18:439][127]LogScript: Warning: Accessed None trying to read property Options Ref
+	NewWidgetBlueprint_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.NewWidgetBlueprint_C_0
+	Function /Game/UI/NewUITest/NewWidgetBlueprint.NewWidgetBlueprint_C:ExecuteUbergraph_NewWidgetBlueprint:02FD
+[2018.07.28-23.27.18:439][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Options Ref". Blueprint:  NewWidgetBlueprint Function:  Execute Ubergraph New Widget Blueprint Graph:  Customize Button Pressed Node:  Remove from Parent
+[2018.07.28-23.27.21:201][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.28-23.27.25:903][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.28-23.27.28:719][353]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-23.27.28:723][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.28:753][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-23.27.28:754][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.27.28:828][354]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.07.28-23.29.32:145][289]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.29.32:182][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.29.32:182][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.28-23.29.32:182][289]PIE: New page: PIE session: MainLobby (Jul 28, 2018, 3:29:32 PM)
+[2018.07.28-23.29.32:183][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.07.28-23.29.32:184][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2018.07.28-23.29.32:185][289]LogAIModule: Creating AISystem for world MainLobby
+[2018.07.28-23.29.32:185][289]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.07.28-23.29.32:185][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002423s)
+[2018.07.28-23.29.32:220][289]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.28-23.29.32:325][289]LogInit: FAudioDevice initialized.
+[2018.07.28-23.29.32:355][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.07.28-23.29.32:436][289]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.07.28-23.29.32:437][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 0) at 2018.07.28-19.29.32
+[2018.07.28-23.29.32:437][289]LogWorld: Bringing up level for play took: 0.000524
+[2018.07.28-23.29.32:453][289]LogBlueprintUserMessages: [MainLobby_C_11] Loaded Save Gane
+[2018.07.28-23.29.32:453][289]LogBlueprintUserMessages: [MainLobby_C_11] ForceField
+[2018.07.28-23.29.32:455][289]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.032
+[2018.07.28-23.29.32:455][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.29.35:362][614]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.28-23.29.35:365][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.29.35:395][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.07.28-23.29.35:396][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.29.35:443][616]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.07.28-23.29.46:878][356]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Options/Options.Options
+[2018.07.28-23.30.24:593][302]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Options/VideoOptions.VideoOptions
+[2018.07.28-23.30.39:539][735]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.28-23.30.39:567][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.07.28-23.30.39:567][735]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.28-23.30.39:573][735]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2018.07.28-23.30.39:723][735]LogPlayLevel: [PlayLevel] Compiling VideoOptions before play...
+[2018.07.28-23.30.40:415][735]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.482 s
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: 
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: SObjectWidget for 'VideoOptions_C /Engine/Transient.World_12:Options_C_3.WidgetTree_0.VideoOptions' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: Stack: 
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd8bd7136 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd8910c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd892b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd36f9a63 UE4Editor-UMG.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffe651f32a UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd57dfc17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd57e3419 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd37c1c4b UE4Editor-UMG.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd93b2591 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd938702e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd9303a14 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd9302f6e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd44a737c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd448f8f1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-23.30.40:415][735]LogOutputDevice: Error: [Callstack] 0x00007fffd44ae726 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007fffd3ec6aa1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007fffd47bf836 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff622d05cbd UE4Editor.exe!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff622d15b3c UE4Editor.exe!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff622d15bba UE4Editor.exe!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff622d23dac UE4Editor.exe!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff622d25aaa UE4Editor.exe!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff834473034 KERNEL32.DLL!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: [Callstack] 0x00007ff834911431 ntdll.dll!UnknownFunction []
+[2018.07.28-23.30.40:416][735]LogOutputDevice: Error: 
+[2018.07.28-23.30.40:426][735]LogStats:                SubmitErrorReport -  0.000 s
