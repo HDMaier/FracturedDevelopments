@@ -1,0 +1,892 @@
+﻿Log file open, 08/30/18 18:24:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TheGauntlet
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.278322
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.052s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.30-22.24.39:121][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.30-22.24.39:121][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.30-22.24.39:149][  0]LogHAL: Display: Platform has ~ 16 GB [17120108544 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.30-22.24.39:149][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.30-22.24.39:149][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.30-22.24.39:150][  0]LogInit: Computer: DESKTOP-V72DBF1
+[2018.08.30-22.24.39:150][  0]LogInit: User: Hunter
+[2018.08.30-22.24.39:150][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.30-22.24.39:150][  0]LogInit: High frequency timer resolution =3.515627 MHz
+[2018.08.30-22.24.39:150][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.08.30-22.24.39:150][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.30-22.24.39:150][  0]LogMemory: Process Physical Memory: 100.57 MB used, 100.57 MB peak
+[2018.08.30-22.24.39:150][  0]LogMemory: Process Virtual Memory: 84.50 MB used, 84.50 MB peak
+[2018.08.30-22.24.39:150][  0]LogMemory: Physical Memory: 5833.14 MB used,  10493.87 MB free, 16327.01 MB total
+[2018.08.30-22.24.39:150][  0]LogMemory: Virtual Memory: 4633.58 MB used,  10493.87 MB free, 134217728.00 MB total
+[2018.08.30-22.24.39:175][  0]LogInit: Using OS detected language (en-US).
+[2018.08.30-22.24.39:175][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.30-22.24.39:176][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.30-22.24.39:498][  0]LogStreaming: Display: Took  0.324s to InitEngineTextLocalization.
+[2018.08.30-22.24.39:499][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.30-22.24.39:548][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.30-22.24.39:548][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.30-22.24.39:737][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.30-22.24.39:737][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.30-22.24.39:785][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2018.08.30-22.24.39:785][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.08.30-22.24.39:786][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.30-22.24.39:786][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.30-22.24.39:786][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.30-22.24.39:793][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.30-22.24.39:793][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.30-22.24.39:793][  0]LogWindows: EnumDisplayDevices:
+[2018.08.30-22.24.39:793][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2018.08.30-22.24.39:793][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2018.08.30-22.24.39:793][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2018.08.30-22.24.39:793][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.08.30-22.24.39:793][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.30-22.24.39:793][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2018.08.30-22.24.39:793][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.08.30-22.24.39:793][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.08.30-22.24.39:793][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2018.08.30-22.24.39:824][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.30-22.24.39:854][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.30-22.24.39:993][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Intermediate/Shaders/WorkingDirectory/10060/).
+[2018.08.30-22.24.39:993][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hunter/AppData/Local/Temp/UnrealShaderWorkingDir/B7C088EB41D6FE832D4AB8A9618C92B1/'.
+[2018.08.30-22.24.40:224][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.30-22.24.40:235][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.30-22.24.40:249][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.30-22.24.40:264][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.30-22.24.40:280][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.30-22.24.40:294][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.30-22.24.40:307][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.30-22.24.40:318][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.30-22.24.40:324][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.30-22.24.40:399][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.30-22.24.40:456][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.30-22.24.40:456][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.30-22.24.40:475][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.30-22.24.40:475][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.30-22.24.40:486][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.30-22.24.40:498][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.30-22.24.40:513][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.30-22.24.40:526][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.30-22.24.40:536][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.30-22.24.40:536][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.30-22.24.40:589][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.30-22.24.40:589][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.30-22.24.40:589][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.30-22.24.41:200][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.30-22.24.41:244][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.30-22.24.41:245][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.30-22.24.41:245][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.30-22.24.41:245][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.30-22.24.41:245][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.30-22.24.41:245][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.30-22.24.41:256][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.30-22.24.41:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hunter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.30-22.24.41:268][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.30-22.24.41:268][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.30-22.24.41:283][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.30-22.24.41:284][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.30-22.24.41:284][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.30-22.24.41:348][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.08.30-22.24.41:627][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.30-22.24.41:750][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.30-22.24.41:754][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.30-22.24.41:754][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.30-22.24.41:754][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.30-22.24.41:754][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.30-22.24.41:792][  0]LogNetVersion: TheGauntlet 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 680350633)
+[2018.08.30-22.24.42:215][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.072148 seconds
+[2018.08.30-22.24.42:221][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.30-22.24.42:221][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.30-22.24.42:221][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.30-22.24.42:928][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.08.30-22.24.42:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.30-22.24.42:943][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.30-22.24.43:090][  0]SourceControl: Source control is disabled
+[2018.08.30-22.24.43:090][  0]SourceControl: Source control is disabled
+[2018.08.30-22.24.43:090][  0]SourceControl: Source control is disabled
+[2018.08.30-22.24.43:091][  0]SourceControl: Source control is disabled
+[2018.08.30-22.24.43:260][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.30-22.24.43:403][  0]LogOcInput: OculusInput pre-init called
+[2018.08.30-22.24.43:567][  0]LogEngine: Initializing Engine...
+[2018.08.30-22.24.43:567][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.30-22.24.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.30-22.24.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.30-22.24.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.30-22.24.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.30-22.24.43:740][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.30-22.24.43:751][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.30-22.24.43:784][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.24.43:880][  0]LogInit: FAudioDevice initialized.
+[2018.08.30-22.24.43:881][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.30-22.24.43:950][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Hunter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.30-22.24.43:953][  0]LogInit: Texture streaming: Enabled
+[2018.08.30-22.24.43:966][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.30-22.24.43:976][  0]LogInit: Transaction tracking system initialized
+[2018.08.30-22.24.43:994][  0]BlueprintLog: New page: Editor Load
+[2018.08.30-22.24.44:053][  0]LocalizationService: Localization service is disabled
+[2018.08.30-22.24.44:277][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.30-22.24.44:277][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.30-22.24.44:277][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.30-22.24.44:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.30-22.24.44:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.30-22.24.44:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.30-22.24.44:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.30-22.24.44:373][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/' took 0.01s
+[2018.08.30-22.24.44:373][  0]SourceControl: Source control is disabled
+[2018.08.30-22.24.44:373][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Levels/MainLobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.30-22.24.44:374][  0]LightingResults: New page: Lighting Build
+[2018.08.30-22.24.44:376][  0]MapCheck: New page: Map Check
+[2018.08.30-22.24.44:376][  0]LightingResults: New page: Lighting Build
+[2018.08.30-22.24.45:699][  0]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.24.45:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.30-22.24.45:731][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.30-22.24.45:797][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.332ms to complete.
+[2018.08.30-22.24.45:797][  0]LogFileHelpers: Loading map 'MainLobby' took 1.424
+[2018.08.30-22.24.45:963][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.45:969][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.45:975][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.45:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.45:987][  0]LogCollectionManager: Loaded 0 collections in 0.001402 seconds
+[2018.08.30-22.24.46:052][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Collections/' took 0.01s
+[2018.08.30-22.24.46:052][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Developers/Hunter/Collections/' took 0.01s
+[2018.08.30-22.24.46:052][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Collections/' took 0.01s
+[2018.08.30-22.24.46:052][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.30-22.24.46:060][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2586 classes and 609 folders.
+[2018.08.30-22.24.46:068][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.30-22.24.46:107][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.30-22.24.46:145][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.30-22.24.46:154][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.30-22.24.46:156][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.30-22.24.46:162][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.30-22.24.46:232][  0]LogRenderer: Reallocating scene render targets to support 1208x632 Format 10 NumSamples 1 (Frame:1).
+[2018.08.30-22.24.46:359][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.30-22.24.46:359][  0]LogLoad: (Engine Initialization) Total time: 8.72 seconds
+[2018.08.30-22.24.46:359][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.30-22.24.46:370][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.30-22.24.46:393][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.30-22.24.46:422][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.30-22.24.46:426][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.08.30-22.24.46:440][  1]LogAssetRegistry: Asset discovery search completed in 5.1140 seconds
+[2018.08.30-22.24.46:442][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.30-22.24.46:442][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.08.30-22.24.54:160][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.24.54:276][894]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.24.54:293][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.24.54:293][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.30-22.24.54:305][894]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:24:54 PM)
+[2018.08.30-22.24.54:305][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.24.54:307][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001865s)
+[2018.08.30-22.24.54:307][894]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.24.54:308][894]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2018.08.30-22.24.54:308][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002487s)
+[2018.08.30-22.24.54:335][894]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.24.54:429][894]LogInit: FAudioDevice initialized.
+[2018.08.30-22.24.54:456][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.54:566][894]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.24.54:568][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.24.54
+[2018.08.30-22.24.54:568][894]LogWorld: Bringing up level for play took: 0.000556
+[2018.08.30-22.24.54:583][894]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.08.30-22.24.54:591][894]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.664
+[2018.08.30-22.24.54:592][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.24.54:613][894]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.08.30-22.24.54:613][894]LogRenderer: Reallocating scene render targets to support 1932x1116 Format 10 NumSamples 1 (Frame:1).
+[2018.08.30-22.24.57:932][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.24.57:932][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.24.57:949][286]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.24.57:984][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.24.57:984][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.24.58:032][289]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.08.30-22.25.05:554][183]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.30-22.25.05:563][183]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Saves/AbilityUnlocks.AbilityUnlocks
+[2018.08.30-22.25.05:993][183]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.08.30-22.25.06:602][183]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.30-22.25.13:330][672]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.25.13:350][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.25.13:350][672]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.25.13:358][672]LogPlayLevel: [PlayLevel] Compiling AbilityUnlocks before play...
+[2018.08.30-22.25.13:390][672]LogPlayLevel: PlayLevel: Blueprint regeneration took 40 ms (1 blueprints)
+[2018.08.30-22.25.13:390][672]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:25:13 PM)
+[2018.08.30-22.25.13:391][672]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.25.13:392][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001753s)
+[2018.08.30-22.25.13:393][672]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.25.13:393][672]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2018.08.30-22.25.13:393][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002641s)
+[2018.08.30-22.25.13:426][672]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.25.13:516][672]LogInit: FAudioDevice initialized.
+[2018.08.30-22.25.13:542][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.25.13:619][672]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.25.13:621][672]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.25.13
+[2018.08.30-22.25.13:621][672]LogWorld: Bringing up level for play took: 0.000571
+[2018.08.30-22.25.13:638][672]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.288
+[2018.08.30-22.25.13:639][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.25.24:527][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.25.24:527][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.25.24:527][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.25.24:545][198]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.25.24:582][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.25.24:582][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.25.24:866][199]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.08.30-22.30.05:787][581]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.30.05:809][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.30.05:809][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.30-22.30.05:809][581]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:30:05 PM)
+[2018.08.30-22.30.05:809][581]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.30.05:812][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002021s)
+[2018.08.30-22.30.05:812][581]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.30.05:812][581]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.08.30-22.30.05:812][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002881s)
+[2018.08.30-22.30.05:846][581]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.30.05:951][581]LogInit: FAudioDevice initialized.
+[2018.08.30-22.30.05:978][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.30.06:053][581]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.30.06:055][581]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.30.06
+[2018.08.30-22.30.06:055][581]LogWorld: Bringing up level for play took: 0.000961
+[2018.08.30-22.30.06:073][581]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.147
+[2018.08.30-22.30.06:073][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.30.07:197][699]LogBlueprintUserMessages: [VideoOptions] 1920x1080
+[2018.08.30-22.30.11:893][228]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.30.11:896][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.30.11:928][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.30.11:928][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.30.11:982][231]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.08.30-22.30.16:274][465]LogSlate: Window 'Save Content' being destroyed
+[2018.08.30-22.30.16:312][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Saves/AbilityUnlocks" FILE="D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Saves/AbilityUnlocks.uasset" SILENT=true
+[2018.08.30-22.30.16:330][465]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/AbilityUnlocks7E673457496FC2D36AE68696119A8CE7.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Content/Saves/AbilityUnlocks.uasset'
+[2018.08.30-22.31.15:407][969]LogTemp: Repeating last play command: Standalone Game
+[2018.08.30-22.33.36:380][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.33.36:380][865]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.33.36:383][865]LogPlayLevel: [PlayLevel] Compiling AbilityUnlocks before play...
+[2018.08.30-22.33.36:414][865]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2018.08.30-22.33.36:415][865]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:33:36 PM)
+[2018.08.30-22.33.36:415][865]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.33.36:417][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002244s)
+[2018.08.30-22.33.36:417][865]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.33.36:418][865]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2018.08.30-22.33.36:418][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002926s)
+[2018.08.30-22.33.36:452][865]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.33.36:544][865]LogInit: FAudioDevice initialized.
+[2018.08.30-22.33.36:571][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.33.36:645][865]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.33.36:646][865]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.33.36
+[2018.08.30-22.33.36:646][865]LogWorld: Bringing up level for play took: 0.000548
+[2018.08.30-22.33.36:664][865]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.737
+[2018.08.30-22.33.36:664][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.33.38:594][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.33.38:594][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.33.38:594][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.33.38:612][ 71]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.33.38:644][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.33.38:645][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.33.38:693][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.08.30-22.33.42:183][435]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby
+[2018.08.30-22.35.09:898][669]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/MainLobby_Auto1575D1907457DF1BC42998CB92914C6AE.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Autosaves/Game/Levels/MainLobby_Auto1.umap'
+[2018.08.30-22.35.09:900][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLobby' took 0.185
+[2018.08.30-22.35.09:900][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2018.08.30-22.35.09:901][669]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Saves/AbilityUnlocks] ([1] browsable assets)...
+[2018.08.30-22.35.09:902][669]OBJ SavePackage: Finished generating thumbnails for package [/Game/Saves/AbilityUnlocks]
+[2018.08.30-22.35.09:914][669]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/AbilityUnlocks_Auto1627F0C814076260F48ABC49CB8FD4FB1.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Autosaves/Game/Saves/AbilityUnlocks_Auto1.uasset'
+[2018.08.30-22.35.09:914][669]LogFileHelpers: Auto-saving content packages took 0.013
+[2018.08.30-22.37.10:136][693]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.37.10:159][693]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.37.10:159][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.30-22.37.10:159][693]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:37:10 PM)
+[2018.08.30-22.37.10:159][693]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.37.10:161][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001744s)
+[2018.08.30-22.37.10:161][693]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.37.10:161][693]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2018.08.30-22.37.10:161][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002462s)
+[2018.08.30-22.37.10:194][693]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.37.10:305][693]LogInit: FAudioDevice initialized.
+[2018.08.30-22.37.10:360][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.37.10:486][693]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.37.10:488][693]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.37.10
+[2018.08.30-22.37.10:488][693]LogWorld: Bringing up level for play took: 0.001191
+[2018.08.30-22.37.10:513][693]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.587
+[2018.08.30-22.37.10:514][693]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.37.42:328][706]LogBlueprintUserMessages: [AbilityDragTo2] HealingSpell
+[2018.08.30-22.37.43:637][825]LogBlueprintUserMessages: [AbilityDragTo3] InvisibilityCloak
+[2018.08.30-22.37.47:229][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.37.48:947][332]LogNet: Browse: /Game/Levels/ThirdPersonExampleMap
+[2018.08.30-22.37.48:947][332]LogLoad: LoadMap: /Game/Levels/ThirdPersonExampleMap
+[2018.08.30-22.37.50:273][332]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.30-22.37.50:273][332]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.30-22.37.50:279][332]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 120) at 2018.08.30-18.37.50
+[2018.08.30-22.37.50:280][332]LogWorld: Bringing up level for play took: 0.005931
+[2018.08.30-22.37.50:280][332]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.08.30-22.37.50:282][332]LogLoad: Took 1.335319 seconds to LoadMap(/Game/Levels/ThirdPersonExampleMap)
+[2018.08.30-22.39.21:114][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.39.21:115][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.39.21:138][133]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.39.21:172][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.39.21:173][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.39.21:453][134]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.08.30-22.39.39:416][ 50]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/LoadoutScreen/LoadoutScreen.LoadoutScreen
+[2018.08.30-22.39.41:257][ 97]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.30-22.40.46:955][  0]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/LoadoutScreen/Customize.Customize
+[2018.08.30-22.40.52:629][164]LogSlate: Took 0.013324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.08.30-22.41.30:911][776]BlueprintLog: New page: Compile Customize
+[2018.08.30-22.41.53:127][ 42]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.42.04:432][  4]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:461][  7]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:462][  7]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:471][  8]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:473][  8]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:474][  8]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:483][  9]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:485][  9]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:487][  9]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:488][  9]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:489][  9]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:499][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:500][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:501][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:502][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:504][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:505][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:506][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:507][ 10]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:516][ 11]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:517][ 11]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.04:723][ 35]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.10:662][734]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.10:733][742]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.42.11:910][880]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.42.17:770][575]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.42.17:804][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.42.17:804][575]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.42.17:809][575]LogPlayLevel: [PlayLevel] Compiling Customize before play...
+[2018.08.30-22.42.17:953][575]LogPlayLevel: PlayLevel: Blueprint regeneration took 149 ms (1 blueprints)
+[2018.08.30-22.42.17:953][575]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:42:17 PM)
+[2018.08.30-22.42.17:953][575]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.42.17:955][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
+[2018.08.30-22.42.17:956][575]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.42.17:956][575]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2018.08.30-22.42.17:956][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002661s)
+[2018.08.30-22.42.17:995][575]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.42.18:088][575]LogInit: FAudioDevice initialized.
+[2018.08.30-22.42.18:115][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.42.18:192][575]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.42.18:194][575]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.42.18
+[2018.08.30-22.42.18:194][575]LogWorld: Bringing up level for play took: 0.000801
+[2018.08.30-22.42.18:213][575]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.286
+[2018.08.30-22.42.18:213][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.42.26:483][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.42.26:483][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.42.26:502][414]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.42.26:536][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.42.26:536][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.42.26:588][415]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.08.30-22.42.35:104][387]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/LoadScreenWidget.LoadScreenWidget
+[2018.08.30-22.42.41:493][863]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/NewUITest/NewWidgetBlueprint.NewWidgetBlueprint
+[2018.08.30-22.43.01:147][971]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.43.01:173][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.43.01:173][971]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.43.01:177][971]LogPlayLevel: [PlayLevel] Compiling Customize before play...
+[2018.08.30-22.43.01:332][971]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2018.08.30-22.43.01:332][971]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:43:01 PM)
+[2018.08.30-22.43.01:332][971]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.43.01:334][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2018.08.30-22.43.01:334][971]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.43.01:334][971]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.08.30-22.43.01:334][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002312s)
+[2018.08.30-22.43.01:371][971]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.43.01:461][971]LogInit: FAudioDevice initialized.
+[2018.08.30-22.43.01:488][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.43.01:566][971]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.43.01:568][971]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.43.01
+[2018.08.30-22.43.01:568][971]LogWorld: Bringing up level for play took: 0.000898
+[2018.08.30-22.43.01:585][971]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.342
+[2018.08.30-22.43.01:585][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.43.02:548][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.43.05:493][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.43.05:493][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.43.05:512][390]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.43.05:542][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.43.05:543][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.43.05:597][391]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.08.30-22.43.08:937][784]BlueprintLog: New page: Compile Customize
+[2018.08.30-22.44.05:022][877]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.07:096][ 62]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.11:690][469]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.14:386][705]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.14:386][705]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.14:386][705]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.15:851][836]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.20:791][282]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.20:791][282]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.20:791][282]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.21:705][363]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.25:804][734]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.25:804][734]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.25:804][734]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.44.26:676][811]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.44.27:590][894]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.44.27:616][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.44.27:616][894]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.44.27:620][894]LogPlayLevel: [PlayLevel] Compiling Customize before play...
+[2018.08.30-22.44.27:778][894]LogPlayLevel: PlayLevel: Blueprint regeneration took 160 ms (1 blueprints)
+[2018.08.30-22.44.27:778][894]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:44:27 PM)
+[2018.08.30-22.44.27:778][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.44.27:780][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001908s)
+[2018.08.30-22.44.27:780][894]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.44.27:780][894]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2018.08.30-22.44.27:780][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002491s)
+[2018.08.30-22.44.27:817][894]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.44.27:913][894]LogInit: FAudioDevice initialized.
+[2018.08.30-22.44.27:938][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.44.28:012][894]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.44.28:013][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.44.28
+[2018.08.30-22.44.28:013][894]LogWorld: Bringing up level for play took: 0.000649
+[2018.08.30-22.44.28:033][894]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.107
+[2018.08.30-22.44.28:034][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.44.33:389][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.44.33:389][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.44.33:407][269]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.44.33:442][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.44.33:443][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.44.33:502][270]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.08.30-22.47.40:279][965]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLobby' took 0.027
+[2018.08.30-22.47.40:282][965]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/LoadoutScreen/Customize] ([1] browsable assets)...
+[2018.08.30-22.47.40:282][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/LoadoutScreen/Customize]
+[2018.08.30-22.47.40:308][965]LogSavePackage: Moving 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Customize_Auto2BF08DC17439D886BC1370195E5157CEF.tmp' to 'D:/Unreal Projects/Git/FracturedDevelopments/TheGauntlet 4.20/Saved/Autosaves/Game/UI/LoadoutScreen/Customize_Auto2.uasset'
+[2018.08.30-22.47.40:309][965]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.08.30-22.50.53:248][130]BlueprintLog: New page: Compile Customize
+[2018.08.30-22.51.00:710][786]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:710][786]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:710][786]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:710][786]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:789][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:789][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:789][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:789][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:792][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:792][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:792][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:792][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:795][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:795][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:795][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:795][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:798][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:798][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:798][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:798][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:801][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:801][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:801][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:801][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:804][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:804][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:804][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:804][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:807][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:807][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:807][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:807][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:811][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:811][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:811][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:811][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:814][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:814][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:814][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:814][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:817][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:817][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:817][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:817][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:820][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:820][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:820][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:820][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:823][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:823][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:823][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:823][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:826][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:826][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:826][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:826][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:829][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:829][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:829][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:829][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:832][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:832][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:832][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:832][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:836][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:836][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:836][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:836][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:838][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:838][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:839][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:839][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:842][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:842][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:842][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:842][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:845][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:845][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:845][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:845][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:848][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:848][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:848][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:848][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:851][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:851][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:851][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:851][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:854][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:854][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:854][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:854][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:857][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:857][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:857][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.00:857][793]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.01:141][817]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.01:141][817]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.01:141][817]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.01:141][817]LogClass: Warning: In asset 'None', there is an enum property of type 'ESlateColorStylingMode' with an invalid value of ''
+[2018.08.30-22.51.01:785][875]LogSlate: Window 'Color Picker' being destroyed
+[2018.08.30-22.51.02:965][977]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.51.02:990][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.51.02:990][977]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.51.02:995][977]LogPlayLevel: [PlayLevel] Compiling Customize before play...
+[2018.08.30-22.51.03:153][977]LogPlayLevel: PlayLevel: Blueprint regeneration took 163 ms (1 blueprints)
+[2018.08.30-22.51.03:153][977]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:51:03 PM)
+[2018.08.30-22.51.03:153][977]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.51.03:155][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001945s)
+[2018.08.30-22.51.03:156][977]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.51.03:156][977]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.08.30-22.51.03:156][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002683s)
+[2018.08.30-22.51.03:192][977]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.51.03:282][977]LogInit: FAudioDevice initialized.
+[2018.08.30-22.51.03:308][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.51.03:387][977]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.51.03:388][977]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.51.03
+[2018.08.30-22.51.03:388][977]LogWorld: Bringing up level for play took: 0.000792
+[2018.08.30-22.51.03:406][977]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.52
+[2018.08.30-22.51.03:407][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.51.09:314][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.51.09:314][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.51.09:332][380]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.51.09:363][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.51.09:364][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.51.09:418][381]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.08.30-22.51.51:481][669]LogEditorTransaction: Undo Paste clipboard contents
+[2018.08.30-22.51.56:108][104]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/LoadoutScreen/Customize.Customize:EventGraph.K2Node_CallFunction_0 or K2Node_CallFunction /Game/UI/LoadoutScreen/Customize.Customize:EventGraph.K2Node_CallFunction_0
+[2018.08.30-22.55.18:622][725]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.55.18:649][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.55.18:649][725]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.55.18:658][725]LogPlayLevel: [PlayLevel] Compiling Customize before play...
+[2018.08.30-22.55.18:824][725]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2018.08.30-22.55.18:824][725]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:55:18 PM)
+[2018.08.30-22.55.18:824][725]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.55.18:826][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001874s)
+[2018.08.30-22.55.18:826][725]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.55.18:826][725]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2018.08.30-22.55.18:826][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002509s)
+[2018.08.30-22.55.18:867][725]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.55.18:974][725]LogInit: FAudioDevice initialized.
+[2018.08.30-22.55.19:006][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.55.19:084][725]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.55.19:085][725]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.55.19
+[2018.08.30-22.55.19:085][725]LogWorld: Bringing up level for play took: 0.000682
+[2018.08.30-22.55.19:105][725]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 1.179
+[2018.08.30-22.55.19:105][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.55.29:338][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.55.34:013][716]LogBlueprintUserMessages: [VideoOptions] 1920x1080
+[2018.08.30-22.55.37:542][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.55.40:608][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.55.41:236][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.55.51:831][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.55.56:609][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.55.56:609][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.55.56:628][247]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.55.56:666][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.55.56:666][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.55.56:733][248]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.08.30-22.56.28:740][782]BlueprintLog: New page: Compile NewWidgetBlueprint
+[2018.08.30-22.56.29:480][795]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.56.29:504][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.56.29:504][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.30-22.56.29:504][795]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:56:29 PM)
+[2018.08.30-22.56.29:504][795]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.56.29:506][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001743s)
+[2018.08.30-22.56.29:506][795]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.56.29:506][795]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2018.08.30-22.56.29:506][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002293s)
+[2018.08.30-22.56.29:543][795]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.56.29:649][795]LogInit: FAudioDevice initialized.
+[2018.08.30-22.56.29:690][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.56.29:768][795]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.56.29:769][795]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.56.29
+[2018.08.30-22.56.29:769][795]LogWorld: Bringing up level for play took: 0.000621
+[2018.08.30-22.56.29:789][795]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby -0.138
+[2018.08.30-22.56.29:789][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.56.31:856][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.56.34:906][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.30-22.56.34:906][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.56.34:906][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.56.34:924][915]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.56.34:953][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.56.34:953][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.56.35:035][916]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.08.30-22.57.11:376][761]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/SoundFX/UIPressed_FX.UIPressed_FX
+[2018.08.30-22.58.18:099][817]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.58.18:125][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.18:125][817]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.58.18:156][817]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.08.30-22.58.18:344][817]LogPlayLevel: PlayLevel: Blueprint regeneration took 219 ms (1 blueprints)
+[2018.08.30-22.58.18:344][817]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:58:18 PM)
+[2018.08.30-22.58.18:344][817]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.58.18:346][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001757s)
+[2018.08.30-22.58.18:346][817]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.58.18:346][817]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.08.30-22.58.18:346][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002428s)
+[2018.08.30-22.58.18:387][817]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.58.18:477][817]LogInit: FAudioDevice initialized.
+[2018.08.30-22.58.18:502][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.58.18:583][817]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.58.18:584][817]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.58.18
+[2018.08.30-22.58.18:584][817]LogWorld: Bringing up level for play took: 0.000831
+[2018.08.30-22.58.18:604][817]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.678
+[2018.08.30-22.58.18:604][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.22:880][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.58.22:880][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.22:898][ 96]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.58.22:931][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.58.22:932][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.22:987][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.08.30-22.58.36:300][182]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.58.36:326][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.36:326][182]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.58.36:359][182]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.08.30-22.58.36:551][182]LogPlayLevel: PlayLevel: Blueprint regeneration took 225 ms (1 blueprints)
+[2018.08.30-22.58.36:551][182]PIE: New page: PIE session: MainLobby (Aug 30, 2018, 2:58:36 PM)
+[2018.08.30-22.58.36:551][182]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLobby
+[2018.08.30-22.58.36:553][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001826s)
+[2018.08.30-22.58.36:554][182]LogAIModule: Creating AISystem for world MainLobby
+[2018.08.30-22.58.36:554][182]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.08.30-22.58.36:554][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLobby.MainLobby to /Game/Levels/UEDPIE_0_MainLobby.MainLobby (0.002589s)
+[2018.08.30-22.58.36:590][182]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.08.30-22.58.36:678][182]LogInit: FAudioDevice initialized.
+[2018.08.30-22.58.36:703][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.58.36:785][182]LogLoad: Game class is 'MainLobbyGameMode_C'
+[2018.08.30-22.58.36:786][182]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLobby.MainLobby up for play (max tick rate 120) at 2018.08.30-18.58.36
+[2018.08.30-22.58.36:786][182]LogWorld: Bringing up level for play took: 0.000715
+[2018.08.30-22.58.36:807][182]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLobby 0.88
+[2018.08.30-22.58.36:807][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.39:606][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.30-22.58.39:606][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.39:625][361]LogSlate: Window 'TheGauntlet Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.08.30-22.58.39:657][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.30-22.58.39:658][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.39:714][362]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.08.30-22.58.52:065][698]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.08.30-22.58.52:102][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLobby.MainLobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby' with GeneratedClass '/Game/Levels/MainLobby.MainLobby_C' with ClassGeneratedBy '/Game/Levels/MainLobby.MainLobby:PersistentLevel.MainLobby'
+[2018.08.30-22.58.52:103][698]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.08.30-22.58.52:132][698]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2018.08.30-22.58.52:771][698]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.363 s
+[2018.08.30-22.58.52:771][698]LogOutputDevice: Error: === Handled ensure: ===
+[2018.08.30-22.58.52:771][698]LogOutputDevice: Error: 
+[2018.08.30-22.58.52:771][698]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: SObjectWidget for 'Level_Selector_C /Engine/Transient.World_13:NewWidgetBlueprint_C_35.WidgetTree_0.Level_Selector' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: Stack: 
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9ceab71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9ce7f0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9ce80b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9b9689a63 UE4Editor-UMG.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9f058f32a UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9d057fc17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9d0583419 UE4Editor-Slate.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9b9751c4b UE4Editor-UMG.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bfe92ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bfe6756e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bfde3f54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bfde34ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bc24718c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bc22f701 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bc24e536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bbc66b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff9bc55f646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff7e1815cbd UE4Editor.exe!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff7e1825b3c UE4Editor.exe!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff7e1825bba UE4Editor.exe!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff7e1833dac UE4Editor.exe!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ff7e1835aaa UE4Editor.exe!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ffa282b3034 KERNEL32.DLL!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: [Callstack] 0x00007ffa28a21431 ntdll.dll!UnknownFunction []
+[2018.08.30-22.58.52:772][698]LogOutputDevice: Error: 
+[2018.08.30-22.58.52:781][698]LogStats:                SubmitErrorReport -  0.000 s
